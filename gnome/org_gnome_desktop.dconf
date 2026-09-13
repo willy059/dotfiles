@@ -1,3 +1,6 @@
+[a11y/magnifier]
+cross-hairs-length=58
+
 [app-folders]
 folder-children=['System', 'Utilities', 'YaST', 'Pardus', 'a3b31427-ad31-4bf6-a028-1dab1124c1cf', '7911ef3a-6a1d-40f5-b9f5-5419ffab3541']
 
@@ -33,12 +36,16 @@ name='Dossier sans nom'
 sources=[('xkb', 'fr')]
 
 [interface]
+accent-color='blue'
 color-scheme='prefer-dark'
 cursor-size=32
 cursor-theme='Bibata-Modern-Ice'
+document-font-name='Adwaita Sans Medium 12 @wght=500'
 enable-animations=true
+font-name='Adwaita Sans Medium 11 @wght=500'
 gtk-theme='adw-gtk3-dark'
 icon-theme='Papirus'
+text-scaling-factor=1.05
 
 [notifications]
 application-children=['org-gnome-nautilus']
@@ -47,7 +54,7 @@ application-children=['org-gnome-nautilus']
 application-id='org.gnome.Nautilus.desktop'
 
 [peripherals/keyboard]
-numlock-state=true
+numlock-state=false
 
 [peripherals/touchpad]
 tap-to-click=true
