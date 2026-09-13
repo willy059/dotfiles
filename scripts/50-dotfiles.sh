@@ -7,7 +7,7 @@ require_not_root "50-dotfiles.sh"
 src_root="$ROOT_DIR/config"
 [[ -d $src_root ]] || exit 0
 
-files=$(find "$src_root" -mindepth 1 -type f)
+files=$(find "$src_root" -mindepth 1 -type f -not -name '.gitkeep')
 [[ -n $files ]] || { warn "config/ vide, aucun dotfile à lier."; exit 0; }
 
 log "Liaison des dotfiles vers \$HOME"
