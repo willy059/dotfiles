@@ -33,8 +33,9 @@ apps=['avahi-discover.desktop', 'bvnc.desktop', 'qv4l2.desktop', 'qvidcap.deskto
 name='Dossier sans nom'
 
 [background]
-picture-uri='file:///home/william/wallpaper/background.jpg'
-picture-uri-dark='file:///home/william/wallpaper/background.jpg'
+picture-options='zoom'
+picture-uri='file:///home/william/.config/background'
+picture-uri-dark='file:///home/william/.config/background'
 
 [input-sources]
 sources=[('xkb', 'fr')]
@@ -52,10 +53,13 @@ icon-theme='Papirus'
 text-scaling-factor=1.0
 
 [notifications]
-application-children=['org-gnome-nautilus', 'brave-browser']
+application-children=['org-gnome-nautilus', 'brave-browser', 'gnome-about-panel']
 
 [notifications/application/brave-browser]
 application-id='brave-browser.desktop'
+
+[notifications/application/gnome-about-panel]
+application-id='gnome-about-panel.desktop'
 
 [notifications/application/org-gnome-nautilus]
 application-id='org.gnome.Nautilus.desktop'
