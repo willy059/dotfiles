@@ -1,0 +1,11 @@
+[list-view]
+use-tree-view=true
+
+[preferences]
+migrated-gtk-settings=true
+recursive-search='always'
+show-directory-item-counts='local-only'
+show-image-thumbnails='always'
+
+[window-state]
+initial-size=(890, 550)

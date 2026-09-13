@@ -5,3 +5,4 @@
 /org/gnome/settings-daemon/
 /org/gnome/mutter/
 /org/gnome/terminal/
+/org/gnome/nautilus/

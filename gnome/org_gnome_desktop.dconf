@@ -32,6 +32,10 @@ translate=true
 apps=['avahi-discover.desktop', 'bvnc.desktop', 'qv4l2.desktop', 'qvidcap.desktop', 'system-config-printer.desktop', 'bssh.desktop', 'lstopo.desktop', 'hplip.desktop', 'hp-uiscan.desktop']
 name='Dossier sans nom'
 
+[background]
+picture-uri='file:///home/william/wallpaper/background.jpg'
+picture-uri-dark='file:///home/william/wallpaper/background.jpg'
+
 [input-sources]
 sources=[('xkb', 'fr')]
 
