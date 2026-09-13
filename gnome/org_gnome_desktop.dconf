@@ -57,7 +57,7 @@ application-id='brave-browser.desktop'
 application-id='org.gnome.Nautilus.desktop'
 
 [peripherals/keyboard]
-numlock-state=false
+numlock-state=true
 
 [peripherals/touchpad]
 tap-to-click=true
