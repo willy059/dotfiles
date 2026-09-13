@@ -1,0 +1,6 @@
+# Extensions GNOME Shell récupérées directement depuis extensions.gnome.org
+# (pas l'AUR : pas de compilation, pas de sudo, toujours la version
+# compatible avec la version de GNOME Shell installée). Un UUID par ligne.
+# L'activation (enabled-extensions) est restaurée séparément via le dump
+# gnome/org_gnome_shell.dconf, pas ici.
+blur-my-shell@aunetx

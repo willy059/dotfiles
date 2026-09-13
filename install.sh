@@ -6,7 +6,7 @@ source "$ROOT_DIR/lib/common.sh"
 
 require_not_root "install.sh"
 
-all_steps=(remove pacman aur flatpak services dotfiles gnome)
+all_steps=(remove pacman aur flatpak services dotfiles gnome-extensions gnome)
 steps=("${all_steps[@]}")
 DRY_RUN=false
 ASSUME_YES=false

@@ -63,7 +63,8 @@ scripts/20-aur.sh     installe paru (si absent) + packages/aur.txt
 scripts/30-flatpak.sh installe packages/flatpak.txt
 scripts/40-services.sh active services/enabled.txt
 scripts/50-dotfiles.sh symlink config/ -> $HOME
-scripts/60-gnome.sh   restaure gnome/*.dconf
+scripts/55-gnome-extensions.sh installe gnome/extensions.txt depuis extensions.gnome.org
+scripts/60-gnome.sh   restaure gnome/*.dconf (dont l'activation des extensions)
 packages/             listes de paquets (éditables à la main)
 packages/pacman-remove.txt  paquets par défaut de l'ISO à désinstaller (liste manuelle,
                       non régénérée par update.sh — l'ajouter/l'éditer à la main)
@@ -73,7 +74,27 @@ packages/pacman-extra.txt   repère lisible des paquets ajoutés à la main depu
 services/             liste de services systemd
 config/               fichiers de config à symlinker dans $HOME (arborescence miroir)
 gnome/                dumps dconf par domaine
+gnome/extensions.txt  UUID des extensions GNOME Shell à récupérer sur
+                      extensions.gnome.org (pas l'AUR : pas de sudo, pas de
+                      compilation, version toujours compatible avec le shell
+                      installé)
 ```
+
+## Extensions GNOME Shell
+
+Deux façons de les installer selon le cas :
+- **Dépôt officiel/AUR** (ex: dash-to-dock) : ajouter le paquet à
+  `packages/pacman.txt` ou `packages/aur.txt` comme n'importe quel paquet.
+- **extensions.gnome.org** (ex: blur-my-shell) : ajouter son UUID à
+  `gnome/extensions.txt`. Préférable pour les extensions qui n'ont pas de
+  paquet officiel propre ou quand on veut éviter une compilation AUR.
+
+Dans les deux cas, l'activation (`enabled-extensions`) est gérée par le dump
+`gnome/org_gnome_shell.dconf`, pas par ces listes.
+
+**Limite connue (Wayland)** : une extension fraîchement installée n'est
+chargée par GNOME Shell qu'après une déconnexion/reconnexion (ou un
+redémarrage) — c'est une limitation de GNOME Shell, pas du script.
 
 ## Ajouter un dotfile
 
