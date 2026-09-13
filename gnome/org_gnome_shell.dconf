@@ -1,7 +1,7 @@
 [/]
 app-picker-layout=[{'cachyos-hello.desktop': <{'position': <0>}>, 'Alacritty.desktop': <{'position': <1>}>, 'btop.desktop': <{'position': <2>}>, 'arch-update.desktop': <{'position': <3>}>, 'org.gnome.SimpleScan.desktop': <{'position': <4>}>, 'org.gnome.Calculator.desktop': <{'position': <5>}>, 'org.pulseaudio.pavucontrol.desktop': <{'position': <6>}>, 'org.gnome.Snapshot.desktop': <{'position': <7>}>, 'Utilities': <{'position': <8>}>, 'System': <{'position': <9>}>, '7911ef3a-6a1d-40f5-b9f5-5419ffab3541': <{'position': <10>}>, 'a3b31427-ad31-4bf6-a028-1dab1124c1cf': <{'position': <11>}>, 'org.gnome.Extensions.desktop': <{'position': <12>}>, 'cups.desktop': <{'position': <13>}>, 'mpv.desktop': <{'position': <14>}>, 'org.gnome.PowerStats.desktop': <{'position': <15>}>, 'org.gnome.Evince.desktop': <{'position': <16>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <17>}>, 'org.gnome.Settings.desktop': <{'position': <18>}>}]
 disabled-extensions=@as []
-enabled-extensions=['dash-to-dock@micxgx.gmail.com', 'blur-my-shell@aunetx', 'appindicatorsupport@rgcjonas.gmail.com', 'Vitals@CoreCoding.com', 'gsconnect@andyholmes.github.io', 'tilingshell@ferrarodomenico.com', 'printers@linux-man.org', 'caffeine@patapon.info', 'hide-universal-access@akiirui.github.io']
+enabled-extensions=['dash-to-dock@micxgx.gmail.com', 'appindicatorsupport@rgcjonas.gmail.com', 'Vitals@CoreCoding.com', 'gsconnect@andyholmes.github.io', 'tilingshell@ferrarodomenico.com', 'printers@linux-man.org', 'caffeine@patapon.info', 'hide-universal-access@akiirui.github.io', 'blur-my-shell@aunetx']
 favorite-apps=['brave-browser.desktop', 'spotify-launcher.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Ptyxis.desktop']
 welcome-dialog-last-shown-version='50.4'
 
@@ -68,7 +68,7 @@ sigma=30
 
 [extensions/caffeine]
 cli-toggle=false
-indicator-position-max=1
+indicator-position-max=2
 
 [extensions/dash-to-dock]
 apply-custom-theme=false
@@ -82,8 +82,26 @@ preferred-monitor-by-connector='eDP-1'
 transparency-mode='FIXED'
 
 [extensions/gsconnect]
+devices=['a94d2ac267404e66a55bd0ebb08cefd9']
 missing-openssl=false
 name='cachyos-x8664'
+
+[extensions/gsconnect/device/a94d2ac267404e66a55bd0ebb08cefd9]
+incoming-capabilities=['kdeconnect.battery', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.contacts.request_all_uids_timestamps', 'kdeconnect.contacts.request_vcards_by_uid', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.action', 'kdeconnect.notification.reply', 'kdeconnect.notification.request', 'kdeconnect.ping', 'kdeconnect.runcommand', 'kdeconnect.runcommand.output', 'kdeconnect.sftp.request', 'kdeconnect.share.request', 'kdeconnect.share.request.update', 'kdeconnect.shareinputdevices.request', 'kdeconnect.sms.request', 'kdeconnect.sms.request_attachment', 'kdeconnect.sms.request_conversation', 'kdeconnect.sms.request_conversations', 'kdeconnect.systemvolume', 'kdeconnect.telephony.request_mute']
+last-connection='lan://192.168.1.7:1716'
+name='Nothing Phone 3a Pro'
+outgoing-capabilities=['kdeconnect.battery', 'kdeconnect.clipboard', 'kdeconnect.clipboard.connect', 'kdeconnect.connectivity_report', 'kdeconnect.contacts.response_uids_timestamps', 'kdeconnect.contacts.response_vcards', 'kdeconnect.digitizer', 'kdeconnect.digitizer.session', 'kdeconnect.findmyphone.request', 'kdeconnect.mousepad.echo', 'kdeconnect.mousepad.keyboardstate', 'kdeconnect.mousepad.request', 'kdeconnect.mpris', 'kdeconnect.mpris.request', 'kdeconnect.notification', 'kdeconnect.notification.request', 'kdeconnect.ping', 'kdeconnect.presenter', 'kdeconnect.runcommand.request', 'kdeconnect.sftp', 'kdeconnect.share.request', 'kdeconnect.shareinputdevices', 'kdeconnect.sms.attachment_file', 'kdeconnect.sms.messages', 'kdeconnect.systemvolume.request', 'kdeconnect.telephony']
+supported-plugins=['battery', 'clipboard', 'connectivity_report', 'contacts', 'findmyphone', 'mousepad', 'mpris', 'notification', 'ping', 'presenter', 'runcommand', 'sftp', 'share', 'sms', 'systemvolume', 'telephony']
+type='phone'
+
+[extensions/gsconnect/device/a94d2ac267404e66a55bd0ebb08cefd9/plugin/battery]
+custom-battery-notification-value=uint32 80
+
+[extensions/gsconnect/device/a94d2ac267404e66a55bd0ebb08cefd9/plugin/notification]
+applications='{"Énergie":{"iconName":"org.gnome.Settings-power-symbolic","enabled":true},"Gestion des couleurs":{"iconName":"org.gnome.Settings-color-symbolic","enabled":true},"Comptes en ligne":{"iconName":"org.gnome.goa-daemon-symbolic","enabled":true},"File Roller":{"iconName":"org.gnome.FileRoller","enabled":true},"Imprimantes":{"iconName":"org.gnome.Settings-printers-symbolic","enabled":true},"Analyseur d’utilisation des disques":{"iconName":"org.gnome.baobab","enabled":true},"Fichiers":{"iconName":"org.gnome.Nautilus","enabled":true},"Disques":{"iconName":"org.gnome.DiskUtility","enabled":true},"Date et heure":{"iconName":"org.gnome.Settings-time-symbolic","enabled":true},"Zenity":{"iconName":"application-x-executable","enabled":true}}'
+
+[extensions/gsconnect/device/a94d2ac267404e66a55bd0ebb08cefd9/plugin/share]
+receive-directory='/home/william/Téléchargements'
 
 [extensions/just-perfection]
 accent-color-icon=false

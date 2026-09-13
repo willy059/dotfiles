@@ -11,3 +11,4 @@ shelly-flatpak-backend
 showtime
 ufw
 ufw-extras
+malcontent

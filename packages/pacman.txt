@@ -125,7 +125,6 @@ loupe
 lsb-release
 lsscsi
 lvm2
-malcontent
 man-db
 man-pages
 mdadm

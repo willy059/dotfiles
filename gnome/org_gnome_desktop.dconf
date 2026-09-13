@@ -45,7 +45,7 @@ enable-animations=true
 font-name='Adwaita Sans Medium 11 @wght=500'
 gtk-theme='adw-gtk3-dark'
 icon-theme='Papirus'
-text-scaling-factor=1.05
+text-scaling-factor=1.0
 
 [notifications]
 application-children=['org-gnome-nautilus']
