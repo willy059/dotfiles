@@ -6,7 +6,7 @@ source "$ROOT_DIR/lib/common.sh"
 
 require_not_root "install.sh"
 
-all_steps=(dns hostname serveur-alias remove pacman aur flatpak services firewall dotfiles gnome-extensions gnome)
+all_steps=(dns hostname serveur-alias remove pacman aur flatpak services firewall dotfiles gnome-extensions wallpaper gnome)
 steps=("${all_steps[@]}")
 DRY_RUN=false
 ASSUME_YES=false

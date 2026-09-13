@@ -74,6 +74,8 @@ scripts/40-services.sh active services/enabled.txt et désactive
 scripts/45-firewall.sh applique firewall/services.txt (firewalld)
 scripts/50-dotfiles.sh symlink config/ -> $HOME
 scripts/55-gnome-extensions.sh installe gnome/extensions.txt depuis extensions.gnome.org
+scripts/57-wallpaper.sh clone/pull le dépôt séparé willy059/wallpaper dans
+                      ~/wallpaper (image perso, hors dotfiles)
 scripts/60-gnome.sh   restaure gnome/*.dconf (dont l'activation des extensions)
 packages/             listes de paquets (éditables à la main)
 packages/pacman-remove.txt  paquets par défaut de l'ISO à désinstaller (liste manuelle,
