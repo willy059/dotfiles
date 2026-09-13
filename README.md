@@ -67,6 +67,9 @@ scripts/60-gnome.sh   restaure gnome/*.dconf
 packages/             listes de paquets (éditables à la main)
 packages/pacman-remove.txt  paquets par défaut de l'ISO à désinstaller (liste manuelle,
                       non régénérée par update.sh — l'ajouter/l'éditer à la main)
+packages/pacman-extra.txt   repère lisible des paquets ajoutés à la main depuis
+                      l'install de base (informatif seulement — déjà inclus
+                      dans pacman.txt, aucun script ne lit ce fichier)
 services/             liste de services systemd
 config/               fichiers de config à symlinker dans $HOME (arborescence miroir)
 gnome/                dumps dconf par domaine
