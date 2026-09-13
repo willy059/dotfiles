@@ -57,6 +57,7 @@ compiler en root.
 install.sh           point d'entrée pour une réinstallation
 update.sh             point d'entrée pour capturer l'état actuel
 lib/common.sh         fonctions partagées (log, sudo, confirmations)
+scripts/05-remove.sh  désinstalle packages/pacman-remove.txt
 scripts/10-pacman.sh  installe packages/pacman.txt
 scripts/20-aur.sh     installe paru (si absent) + packages/aur.txt
 scripts/30-flatpak.sh installe packages/flatpak.txt
@@ -64,6 +65,8 @@ scripts/40-services.sh active services/enabled.txt
 scripts/50-dotfiles.sh symlink config/ -> $HOME
 scripts/60-gnome.sh   restaure gnome/*.dconf
 packages/             listes de paquets (éditables à la main)
+packages/pacman-remove.txt  paquets par défaut de l'ISO à désinstaller (liste manuelle,
+                      non régénérée par update.sh — l'ajouter/l'éditer à la main)
 services/             liste de services systemd
 config/               fichiers de config à symlinker dans $HOME (arborescence miroir)
 gnome/                dumps dconf par domaine

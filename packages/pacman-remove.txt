@@ -1,0 +1,7 @@
+# Paquets présents par défaut sur l'ISO CachyOS GNOME mais non désirés.
+# Désinstallés à la main sur la machine actuelle ; à re-désinstaller
+# automatiquement après une réinstallation propre.
+meld
+micro
+cachyos-micro-settings
+resources
