@@ -1,0 +1,7 @@
+# Chemins dconf capturés par update.sh / restaurés par install.sh
+# un chemin par ligne, chacun donne un fichier gnome/<nom>.dconf
+/org/gnome/desktop/
+/org/gnome/shell/
+/org/gnome/settings-daemon/
+/org/gnome/mutter/
+/org/gnome/terminal/
