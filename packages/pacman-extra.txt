@@ -8,3 +8,4 @@ brave-bin                           # navigateur
 extension-manager                   # gérer les extensions GNOME
 gnome-shell-extension-dash-to-dock  # dock façon macOS (pas encore activée, voir README)
 claude-code                         # CLI Claude Code
+papirus-icon-theme                  # thème d'icônes

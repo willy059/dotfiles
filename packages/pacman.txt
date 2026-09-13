@@ -144,6 +144,7 @@ openssh
 os-prober
 pacman-contrib
 papers
+papirus-icon-theme
 paru
 pavucontrol
 perl
