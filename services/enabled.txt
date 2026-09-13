@@ -7,6 +7,7 @@ cachyos-rate-mirrors.timer
 cups.path
 cups.service
 cups.socket
+firewalld.service
 fstrim.timer
 gdm.service
 getty@.service
@@ -20,4 +21,3 @@ systemd-resolved.service
 systemd-resolved-varlink.socket
 systemd-timesyncd.service
 systemd-userdbd.socket
-ufw.service

@@ -1,0 +1,3 @@
+# Services firewalld à autoriser (zone par défaut), un par ligne.
+# Liste des noms disponibles : firewall-cmd --get-services
+kdeconnect
