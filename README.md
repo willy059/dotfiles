@@ -59,6 +59,8 @@ update.sh             point d'entrée pour capturer l'état actuel
 lib/common.sh         fonctions partagées (log, sudo, confirmations)
 scripts/00-dns.sh     demande l'IP du DNS primaire et l'applique (interactif,
                       ignoré en --yes/--dry-run)
+scripts/01-hostname.sh demande le nom de la machine et l'applique (interactif,
+                      ignoré en --yes/--dry-run)
 scripts/05-remove.sh  désinstalle packages/pacman-remove.txt
 scripts/10-pacman.sh  installe packages/pacman.txt
 scripts/20-aur.sh     installe paru (si absent) + packages/aur.txt
