@@ -169,8 +169,6 @@ reflector
 ripgrep
 rsync
 sg3_utils
-shelly
-shelly-flatpak-backend
 showtime
 simple-scan
 smartmontools

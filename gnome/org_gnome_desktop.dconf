@@ -1,5 +1,9 @@
 [app-folders]
-folder-children=['System', 'Utilities', 'YaST', 'Pardus', 'a3b31427-ad31-4bf6-a028-1dab1124c1cf']
+folder-children=['System', 'Utilities', 'YaST', 'Pardus', 'a3b31427-ad31-4bf6-a028-1dab1124c1cf', '7911ef3a-6a1d-40f5-b9f5-5419ffab3541']
+
+[app-folders/folders/7911ef3a-6a1d-40f5-b9f5-5419ffab3541]
+apps=['octopi.desktop', 'octopi-notifier.desktop', 'octopi-cachecleaner.desktop']
+name='Dossier sans nom'
 
 [app-folders/folders/Pardus]
 categories=['X-Pardus-Apps']

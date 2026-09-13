@@ -6,3 +6,5 @@ micro
 cachyos-micro-settings
 resources
 vim
+shelly
+shelly-flatpak-backend
