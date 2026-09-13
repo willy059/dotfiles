@@ -8,3 +8,4 @@ resources
 vim
 shelly
 shelly-flatpak-backend
+showtime

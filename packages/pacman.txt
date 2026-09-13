@@ -127,6 +127,7 @@ mesa
 mesa-utils
 mkinitcpio
 modemmanager
+mpv
 mtools
 nano
 nano-syntax-highlighting
@@ -169,7 +170,6 @@ reflector
 ripgrep
 rsync
 sg3_utils
-showtime
 simple-scan
 smartmontools
 s-nail

@@ -11,3 +11,4 @@ claude-code                         # CLI Claude Code
 papirus-icon-theme                  # thème d'icônes
 spotify-launcher                    # client Spotify
 octopi                               # frontend graphique pour pacman
+mpv                                  # lecteur vidéo (remplace showtime)

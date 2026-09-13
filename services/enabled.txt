@@ -14,6 +14,7 @@ NetworkManager-dispatcher.service
 NetworkManager.service
 NetworkManager-wait-online.service
 remote-fs.target
+scx_loader.service
 systemd-resolved-monitor.socket
 systemd-resolved.service
 systemd-resolved-varlink.socket
