@@ -8,3 +8,4 @@ gsconnect@andyholmes.github.io
 tilingshell@ferrarodomenico.com
 printers@linux-man.org
 openbar@neuromorph
+logout-in-power-menu@codegod100.github.io
