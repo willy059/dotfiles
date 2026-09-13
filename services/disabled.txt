@@ -1,0 +1,4 @@
+# Services à désactiver explicitement (activés par défaut sinon), un par ligne.
+# power-profiles-daemon entre en conflit avec auto-cpufreq (les deux gèrent
+# la fréquence CPU) : https://github.com/AdnanHodzic/auto-cpufreq
+power-profiles-daemon.service

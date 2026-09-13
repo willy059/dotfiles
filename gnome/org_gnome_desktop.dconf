@@ -14,7 +14,7 @@ name='X-Pardus-Apps.directory'
 translate=true
 
 [app-folders/folders/System]
-apps=['org.gnome.baobab.desktop', 'org.gnome.DiskUtility.desktop', 'org.freedesktop.MalcontentControl.desktop', 'org.gnome.tweaks.desktop', 'org.cachyos.KernelManager.desktop', 'cachyos-pi.desktop', 'org.cachyos.scx-manager.desktop']
+apps=['org.gnome.baobab.desktop', 'org.gnome.DiskUtility.desktop', 'org.freedesktop.MalcontentControl.desktop', 'org.gnome.tweaks.desktop', 'org.cachyos.KernelManager.desktop', 'cachyos-pi.desktop', 'org.cachyos.scx-manager.desktop', 'Alacritty.desktop']
 name='X-GNOME-Shell-System.directory'
 translate=true
 

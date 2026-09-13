@@ -1,4 +1,5 @@
 ananicy-cpp.service
+auto-cpufreq.service
 avahi-daemon.service
 avahi-daemon.socket
 bluetooth.service

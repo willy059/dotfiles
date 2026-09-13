@@ -4,6 +4,7 @@ alsa-firmware
 alsa-plugins
 alsa-utils
 amd-ucode
+auto-cpufreq
 awesome-terminal-fonts
 baobab
 base

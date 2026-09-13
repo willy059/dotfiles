@@ -65,7 +65,8 @@ scripts/05-remove.sh  désinstalle packages/pacman-remove.txt
 scripts/10-pacman.sh  installe packages/pacman.txt
 scripts/20-aur.sh     installe paru (si absent) + packages/aur.txt
 scripts/30-flatpak.sh installe packages/flatpak.txt
-scripts/40-services.sh active services/enabled.txt
+scripts/40-services.sh active services/enabled.txt et désactive
+                      services/disabled.txt (liste manuelle)
 scripts/45-firewall.sh applique firewall/services.txt (firewalld)
 scripts/50-dotfiles.sh symlink config/ -> $HOME
 scripts/55-gnome-extensions.sh installe gnome/extensions.txt depuis extensions.gnome.org
