@@ -1,5 +1,5 @@
 [/]
-app-picker-layout=[{'cachyos-hello.desktop': <{'position': <0>}>, 'Alacritty.desktop': <{'position': <1>}>, 'btop.desktop': <{'position': <2>}>, 'arch-update.desktop': <{'position': <3>}>, 'org.gnome.SimpleScan.desktop': <{'position': <4>}>, 'org.gnome.Calculator.desktop': <{'position': <5>}>, 'org.gnome.Showtime.desktop': <{'position': <6>}>, 'org.pulseaudio.pavucontrol.desktop': <{'position': <7>}>, 'org.gnome.Snapshot.desktop': <{'position': <8>}>, 'Utilities': <{'position': <9>}>, 'System': <{'position': <10>}>, '7911ef3a-6a1d-40f5-b9f5-5419ffab3541': <{'position': <11>}>, 'a3b31427-ad31-4bf6-a028-1dab1124c1cf': <{'position': <12>}>, 'org.gnome.Extensions.desktop': <{'position': <13>}>, 'cups.desktop': <{'position': <14>}>, 'org.gnome.PowerStats.desktop': <{'position': <15>}>, 'org.gnome.Evince.desktop': <{'position': <16>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <17>}>, 'org.gnome.Settings.desktop': <{'position': <18>}>}]
+app-picker-layout=[{'cachyos-hello.desktop': <{'position': <0>}>, 'Alacritty.desktop': <{'position': <1>}>, 'btop.desktop': <{'position': <2>}>, 'arch-update.desktop': <{'position': <3>}>, 'org.gnome.SimpleScan.desktop': <{'position': <4>}>, 'org.gnome.Calculator.desktop': <{'position': <5>}>, 'org.pulseaudio.pavucontrol.desktop': <{'position': <6>}>, 'org.gnome.Snapshot.desktop': <{'position': <7>}>, 'Utilities': <{'position': <8>}>, 'System': <{'position': <9>}>, '7911ef3a-6a1d-40f5-b9f5-5419ffab3541': <{'position': <10>}>, 'a3b31427-ad31-4bf6-a028-1dab1124c1cf': <{'position': <11>}>, 'org.gnome.Extensions.desktop': <{'position': <12>}>, 'cups.desktop': <{'position': <13>}>, 'mpv.desktop': <{'position': <14>}>, 'org.gnome.PowerStats.desktop': <{'position': <15>}>, 'org.gnome.Evince.desktop': <{'position': <16>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <17>}>, 'org.gnome.Settings.desktop': <{'position': <18>}>}]
 disabled-extensions=@as []
 enabled-extensions=['dash-to-dock@micxgx.gmail.com', 'blur-my-shell@aunetx', 'appindicatorsupport@rgcjonas.gmail.com', 'Vitals@CoreCoding.com', 'gsconnect@andyholmes.github.io', 'tilingshell@ferrarodomenico.com', 'printers@linux-man.org', 'caffeine@patapon.info', 'hide-universal-access@akiirui.github.io']
 favorite-apps=['brave-browser.desktop', 'spotify-launcher.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Ptyxis.desktop']
@@ -31,6 +31,7 @@ pipeline='pipeline_default'
 [extensions/blur-my-shell/dash-to-dock]
 blur=false
 brightness=0.59999999999999998
+override-background=false
 pipeline='pipeline_default_rounded'
 sigma=30
 static-blur=true
@@ -40,6 +41,7 @@ style-dash-to-dock=0
 compatibility=false
 
 [extensions/blur-my-shell/lockscreen]
+blur=true
 pipeline='pipeline_default'
 
 [extensions/blur-my-shell/overview]
@@ -50,9 +52,12 @@ blur=true
 brightness=0.59999999999999998
 corner-radius=0
 force-light-text=false
+override-background-dynamically=false
 pipeline='pipeline_default'
 sigma=30
 static-blur=true
+style-panel=3
+unblur-in-overview=true
 
 [extensions/blur-my-shell/screenshot]
 pipeline='pipeline_default'
