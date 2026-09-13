@@ -18,4 +18,4 @@ fi
 
 log "Installation des paquets AUR ($(wc -l < "$list") paquets)"
 mapfile -t pkgs < <(grep -vE '^\s*(#|$)' "$list")
-run paru -S --needed --noconfirm "${pkgs[@]}"
+run paru -S --needed --noconfirm --skipreview "${pkgs[@]}"
