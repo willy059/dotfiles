@@ -22,7 +22,7 @@ name='suse-yast.directory'
 translate=true
 
 [app-folders/folders/a3b31427-ad31-4bf6-a028-1dab1124c1cf]
-apps=['avahi-discover.desktop', 'bvnc.desktop', 'qv4l2.desktop', 'qvidcap.desktop', 'system-config-printer.desktop', 'bssh.desktop', 'lstopo.desktop']
+apps=['avahi-discover.desktop', 'bvnc.desktop', 'qv4l2.desktop', 'qvidcap.desktop', 'system-config-printer.desktop', 'bssh.desktop', 'lstopo.desktop', 'hplip.desktop', 'hp-uiscan.desktop']
 name='Dossier sans nom'
 
 [input-sources]

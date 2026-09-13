@@ -193,7 +193,6 @@ unzip
 upower
 usb_modeswitch
 usbutils
-vim
 vlc-plugins-all
 vulkan-radeon
 wget

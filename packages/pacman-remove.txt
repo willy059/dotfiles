@@ -5,3 +5,4 @@ meld
 micro
 cachyos-micro-settings
 resources
+vim
