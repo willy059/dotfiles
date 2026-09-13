@@ -1,1 +1,2 @@
 bibata-cursor-theme-bin
+gnome-shell-extension-blur-my-shell
