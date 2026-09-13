@@ -78,7 +78,9 @@ gnome-disk-utility
 gnome-keyring
 gnome-power-manager
 gnome-shell
+gnome-shell-extension-appindicator
 gnome-shell-extension-dash-to-dock
+gnome-shell-extension-vitals
 gnome-text-editor
 gnome-tweaks
 gsfonts

@@ -4,3 +4,6 @@
 # L'activation (enabled-extensions) est restaurée séparément via le dump
 # gnome/org_gnome_shell.dconf, pas ici.
 blur-my-shell@aunetx
+gsconnect@andyholmes.github.io
+tilingshell@ferrarodomenico.com
+printers@linux-man.org
