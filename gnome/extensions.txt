@@ -7,4 +7,3 @@ blur-my-shell@aunetx
 gsconnect@andyholmes.github.io
 tilingshell@ferrarodomenico.com
 printers@linux-man.org
-logout-in-power-menu@codegod100.github.io
