@@ -14,3 +14,4 @@ octopi                               # frontend graphique pour pacman
 mpv                                  # lecteur vidéo (remplace showtime)
 gnome-shell-extension-appindicator   # icônes de la zone de notification (tray)
 gnome-shell-extension-vitals         # moniteur système dans le panneau
+gnome-shell-extension-caffeine       # empêche la mise en veille/l'écran de veille

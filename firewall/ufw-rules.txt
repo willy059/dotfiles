@@ -1,0 +1,4 @@
+# Règles ufw à appliquer. Format : <spec ufw>|<commentaire>
+# <spec ufw> est ce qui suit "ufw allow " (ex: "1716:1764/tcp").
+1716:1764/udp|GSConnect
+1716:1764/tcp|GSConnect

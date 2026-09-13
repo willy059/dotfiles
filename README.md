@@ -62,6 +62,7 @@ scripts/10-pacman.sh  installe packages/pacman.txt
 scripts/20-aur.sh     installe paru (si absent) + packages/aur.txt
 scripts/30-flatpak.sh installe packages/flatpak.txt
 scripts/40-services.sh active services/enabled.txt
+scripts/45-firewall.sh applique firewall/ufw-rules.txt
 scripts/50-dotfiles.sh symlink config/ -> $HOME
 scripts/55-gnome-extensions.sh installe gnome/extensions.txt depuis extensions.gnome.org
 scripts/60-gnome.sh   restaure gnome/*.dconf (dont l'activation des extensions)
@@ -72,6 +73,8 @@ packages/pacman-extra.txt   repère lisible des paquets ajoutés à la main depu
                       l'install de base (informatif seulement — déjà inclus
                       dans pacman.txt, aucun script ne lit ce fichier)
 services/             liste de services systemd
+firewall/ufw-rules.txt liste de règles ufw à ouvrir (liste manuelle,
+                      non régénérée par update.sh — l'ajouter/l'éditer à la main)
 config/               fichiers de config à symlinker dans $HOME (arborescence miroir)
 gnome/                dumps dconf par domaine
 gnome/extensions.txt  UUID des extensions GNOME Shell à récupérer sur
