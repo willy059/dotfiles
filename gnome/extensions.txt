@@ -7,3 +7,4 @@ blur-my-shell@aunetx
 gsconnect@andyholmes.github.io
 tilingshell@ferrarodomenico.com
 printers@linux-man.org
+openbar@neuromorph
