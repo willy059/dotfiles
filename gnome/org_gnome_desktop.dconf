@@ -46,3 +46,6 @@ numlock-state=true
 
 [peripherals/touchpad]
 tap-to-click=true
+
+[wm/preferences]
+button-layout='appmenu:minimize,maximize,close'
