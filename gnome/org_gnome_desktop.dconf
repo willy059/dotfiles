@@ -48,13 +48,16 @@ icon-theme='Papirus'
 text-scaling-factor=1.0
 
 [notifications]
-application-children=['org-gnome-nautilus']
+application-children=['org-gnome-nautilus', 'brave-browser']
+
+[notifications/application/brave-browser]
+application-id='brave-browser.desktop'
 
 [notifications/application/org-gnome-nautilus]
 application-id='org.gnome.Nautilus.desktop'
 
 [peripherals/keyboard]
-numlock-state=true
+numlock-state=false
 
 [peripherals/touchpad]
 tap-to-click=true
