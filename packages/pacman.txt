@@ -176,6 +176,7 @@ smartmontools
 s-nail
 snapshot
 sof-firmware
+spotify-launcher
 sudo
 sushi
 sysfsutils
