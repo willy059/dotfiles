@@ -82,8 +82,10 @@ gnome-shell
 gnome-shell-extension-appindicator
 gnome-shell-extension-caffeine
 gnome-shell-extension-dash-to-dock
+gnome-shell-extensions
 gnome-shell-extension-vitals
 gnome-text-editor
+gnome-themes-extra
 gnome-tweaks
 gsfonts
 gst-libav
@@ -173,6 +175,7 @@ rebuild-detector
 reflector
 ripgrep
 rsync
+sassc
 sg3_utils
 simple-scan
 smartmontools
@@ -180,6 +183,7 @@ s-nail
 snapshot
 sof-firmware
 spotify-launcher
+sshpass
 sudo
 sushi
 sysfsutils
